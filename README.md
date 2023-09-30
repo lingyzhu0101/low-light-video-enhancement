@@ -19,18 +19,19 @@ You can download our processed datasets from this link.
 You can download our synthetic low-light video dataset from this link.
 
 ## Project Setup
+
 First install Python 3. We advise you to install Python 3 and PyTorch with Anaconda:
 
+```
 conda create --name py36 python=3.6
 source activate py36
+```
 
 Clone the repo and install the complementary requirements:
-
+```
 cd $HOME
-git clone --recursive git@github.com:dvlab-research/SNR-Low-Light-Enhance.git
-cd SNR-Low-Light-Enhance
 pip install -r requirements.txt
-
+```
 
 ## Usage
 ### Train
