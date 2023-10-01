@@ -58,6 +58,8 @@ Test the model on the corresponding dataset using the command, the testing on in
 CUDA_VISIBLE_DEVICES=0 python main.py --mode test --version Exp_indoor_20231001
 ```
 
+We adopt PSNR, SSIM, and Feature SIMilarity Index (FSIM) as comparison criteria to evaluate the spatial quality of enhanced video frames, which are based upon the implementations with MATLAB (R2018b).
+
 ### Pre-trained Model
 You can download our trained model using the following links:
 
