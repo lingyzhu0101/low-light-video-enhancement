@@ -37,23 +37,40 @@ pip install -r requirements.txt
 
 ## Usage
 ### Train
-Train the model on the corresponding dataset using the train config. For example, the training on indoor subset of SDSD:
+Train the model on the corresponding dataset using the command, the training on outdoor subset of SDSD:
+```
+CUDA_VISIBLE_DEVICES=0 python main.py --mode train --version Exp_outdoor_20231001 --use_tensorboard True --is_test_psnr_ssim True --use_pretrained_raft True
+```
+
+Train the model on the corresponding dataset using the command, the training on indoor subset of SDSD:
+```
+CUDA_VISIBLE_DEVICES=0 python main.py --mode train --version Exp_indoor_20231001 --use_tensorboard True --is_test_psnr_ssim True --use_pretrained_raft True
+```
 
 ### Test
-We use PSNR and SSIM as the metrics for evaluation. Evaluate the model on the corresponding dataset using the test config.
+Test the model on the corresponding dataset using the command, the testing on outdoor subset of SDSD:
+```
+CUDA_VISIBLE_DEVICES=0 python main.py --mode test --version Exp_outdoor_20231001
+```
+
+Test the model on the corresponding dataset using the command, the testing on indoor subset of SDSD:
+```
+CUDA_VISIBLE_DEVICES=0 python main.py --mode test --version Exp_indoor_20231001
+```
 
 ### Pre-trained Model
 You can download our trained model using the following links:
 
-the model trained with indoor subset in SDSD: indoor_G.pth
+the model trained with indoor subset in [SDSD_indoor](https://jiaya.me/publication/).
 
-the model trained with outdoor subset in SDSD: outdoor_G.pth
+the model trained with outdoor subset in [SDSD_outdoor](https://jiaya.me/publication/).
 
-the model trained with SMID: smid_G.pth
-
+the model trained with [SMID](https://jiaya.me/publication/).
 
 ## Citation Information
 If you find the project useful, please cite:
+```
+```
 
 ## Acknowledgments
 
