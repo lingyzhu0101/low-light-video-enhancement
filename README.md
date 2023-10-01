@@ -61,11 +61,11 @@ CUDA_VISIBLE_DEVICES=0 python main.py --mode test --version Exp_indoor_20231001
 ### Pre-trained Model
 You can download our trained model using the following links:
 
-the model trained with indoor subset in [SDSD_indoor]().
+the model trained with indoor subset in [SDSD_indoor](https://github.com/lingyzhu0101/low-light-video-enhancement/tree/lingyzhu0101).
 
-the model trained with outdoor subset in [SDSD_outdoor]().
+the model trained with outdoor subset in [SDSD_outdoor](https://github.com/lingyzhu0101/low-light-video-enhancement/tree/lingyzhu0101).
 
-the model trained with [SMID]().
+the model trained with [DRV](https://github.com/lingyzhu0101/low-light-video-enhancement/tree/lingyzhu0101).
 
 the optical flow model [RAFT](https://github.com/princeton-vl/RAFT)
 
