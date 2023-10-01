@@ -10,15 +10,15 @@ Temporal inconsistency is the annoying artifact that has been commonly introduce
 ### SDSD dataset
 We use the original SDSD datasets with dynamic scenes.
 
-And you can download the SDSD-indoor and SDSD-outdoor from [link](https://jiaya.me/publication/).
+And you can download the SDSD-indoor and SDSD-outdoor from [link](https://github.com/dvlab-research/SDSD).
 
-### SMID dataset
+### DRV dataset
 We use its full images for SMID and transfer the RAWdata to RGB since our work explores low-light image enhancement in the RGB domain.
 
-You can download our processed datasets from [link](https://jiaya.me/publication/).
+You can download the dataset from [link]([https://github.com/cchen156/Seeing-Motion-in-the-Dark](https://github.com/cchen156/Seeing-Motion-in-the-Dark)).
 
 ### DS-LOL dataset
-You can download our synthetic low-light video dataset from [link](https://jiaya.me/publication/).
+You can download our synthetic low-light video dataset from [link]().
 
 ## Project Setup
 
@@ -61,11 +61,13 @@ CUDA_VISIBLE_DEVICES=0 python main.py --mode test --version Exp_indoor_20231001
 ### Pre-trained Model
 You can download our trained model using the following links:
 
-the model trained with indoor subset in [SDSD_indoor](https://jiaya.me/publication/).
+the model trained with indoor subset in [SDSD_indoor]().
 
-the model trained with outdoor subset in [SDSD_outdoor](https://jiaya.me/publication/).
+the model trained with outdoor subset in [SDSD_outdoor]().
 
-the model trained with [SMID](https://jiaya.me/publication/).
+the model trained with [SMID]().
+
+the optical flow model [RAFT](https://github.com/princeton-vl/RAFT)
 
 ## Citation Information
 If you find the project useful, please cite:
@@ -73,5 +75,6 @@ If you find the project useful, please cite:
 ```
 
 ## Acknowledgments
+This source code is inspired by [UEGAN](https://github.com/eezkni/UEGAN)
 
 
