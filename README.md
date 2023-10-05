@@ -15,7 +15,7 @@ And you can download the SDSD-indoor and SDSD-outdoor from [link](https://github
 ### DRV dataset
 We use its full images for SMID and transfer the RAWdata to RGB since our work explores low-light image enhancement in the RGB domain.
 
-You can download the dataset from [link](https://github.com/cchen156/Seeing-Motion-in-the-Dark](https://github.com/cchen156/Seeing-Motion-in-the-Dark).
+You can download the dataset from [link](https://github.com/dvlab-research/SDSD).
 
 ### DS-LOL dataset
 You can download our synthetic low-light video dataset from [link](https://github.com/lingyzhu0101/low-light-video-enhancement/tree/lingyzhu0101).
