@@ -74,6 +74,14 @@ the optical flow model [RAFT](https://github.com/princeton-vl/RAFT)
 ## Citation Information
 If you find the project useful, please cite:
 ```
+@article{zhu2024temporally,
+  title={Temporally Consistent Enhancement of Low-Light Videos via Spatial-Temporal Compatible Learning},
+  author={Zhu, Lingyu and Yang, Wenhan and Chen, Baoliang and Zhu, Hanwei and Meng, Xiandong and Wang, Shiqi},
+  journal={International Journal of Computer Vision},
+  pages={1--21},
+  year={2024},
+  publisher={Springer}
+}
 ```
 
 ## Acknowledgments
