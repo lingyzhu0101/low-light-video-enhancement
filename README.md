@@ -15,6 +15,14 @@ Temporal inconsistency is the annoying artifact that has been commonly introduce
 
 <img src="./Figure/Proposed_framework.png" width="900"/>
 
+
+
+## TODO List
+This repository is still under active construction:
+- [x] Release training and testing codes
+- [ ] Release pretrained models
+- [ ] Clean the code
+
 ## Dataset
 
 ### SDSD dataset
